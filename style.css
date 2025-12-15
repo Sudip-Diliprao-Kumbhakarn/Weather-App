@@ -1,8 +1,31 @@
-body{
-    margin: auto;
-    padding: auto;
-    text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  background: #df8943;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.main{
-color: tomato;
+
+.weather-app {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 15px;
 }
